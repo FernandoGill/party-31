@@ -1,0 +1,47 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/Halloween.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+    height: 100vh;
+}
+
+main {
+    margin-top: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+main a {
+    text-decoration: none;
+}
+
+a button {
+    width: 12rem;
+    height: 6rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #fafafa;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+a button:hover {
+    background-color: rgba(227, 182, 35, 0.579);
+    color: white;
+}
